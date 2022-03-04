@@ -1,0 +1,16 @@
+SELECT *
+FROM departments_dup
+ORDER BY DEPT_NO;
+
+-- CREATE TABLE DEPARTMENTS_DUP
+-- (
+-- 	DEPT_NO CHAR(4) NOT NULL,
+--     DEPT_NAME VARCHAR(40) NOT NULL
+-- );
+
+-- INSERT INTO departments_dup
+-- (
+-- 	DEPT_NO,
+--     DEPT_NAME
+-- )
+-- SELECT * FROM DEPARTMENTS;

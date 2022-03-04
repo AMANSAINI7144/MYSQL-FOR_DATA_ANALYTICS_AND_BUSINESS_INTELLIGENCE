@@ -1,0 +1,2 @@
+SET @S_VAR1 = 3;
+SELECT @S_VAR1;

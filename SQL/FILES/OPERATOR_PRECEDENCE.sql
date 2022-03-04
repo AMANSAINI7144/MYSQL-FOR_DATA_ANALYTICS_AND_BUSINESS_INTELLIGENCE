@@ -1,0 +1,3 @@
+SELECT *
+FROM employees
+WHERE LAST_NAME = 'Denis' AND (GENDER = 'M' OR GENDER = 'F');

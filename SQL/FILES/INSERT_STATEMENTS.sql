@@ -1,0 +1,28 @@
+SELECT *
+FROM EMPLOYEES
+ORDER BY EMP_NO DESC
+LIMIT 10;
+
+/*
+INSERT INTO employees
+(
+	EMP_NO,
+    BIRTH_DATE,
+    FIRST_NAME,
+    LAST_NAME,
+    GENDER,
+    HIRE_DATE
+)
+VALUES (
+	999901,
+    '1986-04-21',
+    'John',
+    'Smith',
+    'M',
+    '2011-01-01'
+);
+*/
+
+-- SELECT *
+-- FROM EMPLOYEES
+-- WHERE EMP_NO = 999901

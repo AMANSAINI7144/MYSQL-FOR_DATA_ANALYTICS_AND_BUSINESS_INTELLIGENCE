@@ -1,0 +1,23 @@
+select * 
+from departments d
+cross join dept_manager dm
+on d.dept_no = 'd009'
+;
+
+SELECT
+
+    dm.*, d.*  
+
+FROM  
+
+    departments d  
+
+        CROSS JOIN  
+
+    dept_manager dm  
+
+WHERE  
+
+    d.dept_no = 'd009'  
+
+ORDER BY d.dept_no;

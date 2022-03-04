@@ -1,0 +1,14 @@
+SELECT * 
+FROM departments_dup
+ORDER BY DEPT_NO;
+COMMIT;
+
+DELETE FROM departments_dup;
+ROLLBACK;
+
+INSERT INTO departments_dup
+(
+	DEPT_NO,
+    DEPT_NAME
+)
+SELECT * FROM DEPARTMENTS;
